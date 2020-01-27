@@ -6,13 +6,7 @@ import Admin from './pages/Admin.js';
 import Client from './pages/Client.js';
 
 export default props => {
-  const [product, setProducts] = useState([
-    { name: 'Soda', price: '3', id: 1 },
-    { name: 'Hamburger', price: '10', id: 2 },
-    { name: 'Fries', price: '5', id: 3 },
-    { name: 'Backpack', price: '50', id: 4 },
-    { name: 'Tank', price: '100000', id: 5 }
-  ]);
+  const [product, setProducts] = useState([]);
 
   const [input, setInput] = useState({ newName: '', newPrice: '' });
 
