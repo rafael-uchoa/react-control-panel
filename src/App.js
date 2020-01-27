@@ -7,7 +7,6 @@ import Client from './pages/Client.js';
 
 export default props => {
   const [product, setProducts] = useState([]);
-
   const [input, setInput] = useState({ newName: '', newPrice: '' });
 
   function handleDelete(itemid) {
