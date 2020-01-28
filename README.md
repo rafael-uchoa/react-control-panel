@@ -7,4 +7,4 @@
 </h3> 
 
 App developed with React.js, allows admin to enter and delete new products for the user to buy using the shopping cart.
-Includes styled-components for styling and react-router-dom for navigation.
+Includes Styled Components for styling and React Router for navigation.
